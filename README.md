@@ -9,7 +9,7 @@ All details regarding the data, used methods and evaluation of results is includ
 
 ## Data
 
-In order to be able to train and test the models, you will need to import the contents of a zip file from the septuplet test version of Vimeo 90k dataset (http://data.csail.mit.edu/tofu/testset/vimeo_super_resolution_test.zip) in the folder /data/vimeo/.
+In order to be able to train and test the models, you will need to import the contents of a zip file from the septuplet test version of Vimeo 90k dataset (http://data.csail.mit.edu/tofu/testset/vimeo_super_resolution_test.zip or 'The test set for video super-resolution: zip (6GB)' at https://github.com/anchen1011/toflow) in the folder /data/vimeo/.
 The same folder already includes the text files which specify which video sequences are used for trianing and which for testing. The code for setting up the data is already in the included [notebook](./src/Image_super_resolution.ipynb), so all you need to do is download and unzip the Vimeo images.
 
 ## Code
