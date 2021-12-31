@@ -1,10 +1,21 @@
-# Video Super Resolution Using Neural Networks
+# Image and Video Super-Resolution Using Neural Networks
 Author: Dominik Chodounský
 
-This project was created as part of the course NI-MVI (Computational Intelligence Methods) at FIT CTU in Prague.
+The aim of this project was to use deep learning techniques to upscale the resolution of images and subsequently videos via synthetic generation.
 
-Its aim is to take a short low-resolution video and use deep learning techniques to upscale the video resolution via synthetic generation.
+More specifically, the project explores the usage of the U-Net and GAN architectures to achieve this goal.
 
-The current progress of the project can be seen in the [milestone report](/milestone_report.pdf).
+All details regarding the data, used methods and evaluation of results is included in the [report](./report.pdf).
 
-Some examples of results of single image super resolutoin achieved by my adaptation of the U-Net architecture can be seen in [this](/plots) folder.
+## Data
+
+In order to be able to train and test the models, you will need to import the contents of a zip file from the septuplet test version of Vimeo 90k dataset (http://data.csail.mit.edu/tofu/testset/vimeo_super_resolution_test.zip) in the folder /data/vimeo/.
+The same folder already includes the text files which specify which video sequences are used for trianing and which for testing. The code for setting up the data is already in the included [notebook](./src/Image_super_resolution.ipynb), so all you need to do is download and unzip the Vimeo images.
+
+## Code
+
+All experiments were run in the provided [Jupyter Notebook](./src/Image_super_resolution.ipynb) and all the source codes that it uses are located in folder [src](./src).
+
+All of the codes run with Python 3.8, the list of packages used in my development environment is shown in the [requirements file](requirements.txt).
+
+
