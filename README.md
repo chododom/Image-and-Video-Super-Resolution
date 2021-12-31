@@ -18,4 +18,6 @@ All experiments were run in the provided [Jupyter Notebook](./src/Image_super_re
 
 All of the codes run with Python 3.8, the list of packages used in my development environment is shown in the [requirements file](requirements.txt).
 
+## Models
 
+The trained models are too large to include in this repository, so I provide the 4 which are talked about in the report on [this Google Drive link](https://drive.google.com/drive/folders/1xnwVM5rLfkLO2hvAc7HB68frvvsA9VCj?usp=sharing).
